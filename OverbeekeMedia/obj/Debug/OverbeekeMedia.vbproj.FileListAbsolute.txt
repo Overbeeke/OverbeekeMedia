@@ -1,0 +1,8 @@
+C:\Documents\Visual Studio 2012\Projects\OverbeekeMedia\OverbeekeMedia\bin\Test1.dll
+C:\Documents\Visual Studio 2012\Projects\OverbeekeMedia\OverbeekeMedia\bin\Test1.pdb
+C:\Documents\Visual Studio 2012\Projects\OverbeekeMedia\OverbeekeMedia\bin\Test1.xml
+C:\Documents\Visual Studio 2012\Projects\OverbeekeMedia\OverbeekeMedia\obj\Debug\Test1.Resources.resources
+C:\Documents\Visual Studio 2012\Projects\OverbeekeMedia\OverbeekeMedia\obj\Debug\OverbeekeMedia.vbproj.GenerateResource.Cache
+C:\Documents\Visual Studio 2012\Projects\OverbeekeMedia\OverbeekeMedia\obj\Debug\Test1.dll
+C:\Documents\Visual Studio 2012\Projects\OverbeekeMedia\OverbeekeMedia\obj\Debug\Test1.xml
+C:\Documents\Visual Studio 2012\Projects\OverbeekeMedia\OverbeekeMedia\obj\Debug\Test1.pdb

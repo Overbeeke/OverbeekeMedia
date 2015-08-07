@@ -1,0 +1,8 @@
+c:\documents\visual studio 2012\Projects\Test1\Test1\bin\Test1.dll
+c:\documents\visual studio 2012\Projects\Test1\Test1\bin\Test1.pdb
+c:\documents\visual studio 2012\Projects\Test1\Test1\bin\Test1.xml
+c:\documents\visual studio 2012\Projects\Test1\Test1\obj\Debug\Test1.Resources.resources
+c:\documents\visual studio 2012\Projects\Test1\Test1\obj\Debug\Test1.vbproj.GenerateResource.Cache
+c:\documents\visual studio 2012\Projects\Test1\Test1\obj\Debug\Test1.dll
+c:\documents\visual studio 2012\Projects\Test1\Test1\obj\Debug\Test1.xml
+c:\documents\visual studio 2012\Projects\Test1\Test1\obj\Debug\Test1.pdb
