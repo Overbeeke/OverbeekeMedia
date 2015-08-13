@@ -1,9 +1,13 @@
 ﻿.navbar-default.navbar-shrink {
     padding: 10px 0;
-    background-color: #AD4545;
+    background-color: #DAF3FF;
 }
 .text-primary {
     color: #000000;
+}
+
+.mijnlogo {
+    margin-top: -12px;
 }
 
 /*Extra small devices (768px and less)*/
