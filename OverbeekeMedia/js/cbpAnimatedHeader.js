@@ -26,15 +26,22 @@ var cbpAnimatedHeader = (function() {
 
 	function scrollPage() {
 	    var logo = $('img.mijnlogo');
-		var sy = scrollY();
-		if ( sy >= changeHeaderOn ) {
+	    var sy = scrollY();
+
+
+	    if (sy >= changeHeaderOn && !classie.has(header, 'navbar-shrink')) {
+	        logo.hide();
+
 		    classie.add(header, 'navbar-shrink');
-		    logo.attr('src', 'img/logo2webw.png')
+		    logo.attr('src', 'img/logo2webw.png');
+		    logo.fadeIn(1500);
+
         }
-		else {
+	    else if (sy < changeHeaderOn)  {
 		    classie.remove(header, 'navbar-shrink');
 		    logo.attr('src', 'img/logo2web.png')
 		}
+
 		didScroll = false;
 	}
 
