@@ -25,12 +25,15 @@ var cbpAnimatedHeader = (function() {
 	}
 
 	function scrollPage() {
+	    var logo = $('img.mijnlogo');
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
-			classie.add( header, 'navbar-shrink' );
-		}
+		    classie.add(header, 'navbar-shrink');
+		    logo.attr('src', 'img/logo2webw.png')
+        }
 		else {
-			classie.remove( header, 'navbar-shrink' );
+		    classie.remove(header, 'navbar-shrink');
+		    logo.attr('src', 'img/logo2web.png')
 		}
 		didScroll = false;
 	}
