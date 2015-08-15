@@ -265,8 +265,8 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/lelybg.jpg);
-    background-position: center center;
+    background-image: url(../img/lelybgX.jpg);
+    background-position: center -150px;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
