@@ -266,8 +266,8 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/lelybgX.jpg);
-    background-position: center -150px;
-    background-repeat: none;
+    background-position: center bottom;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -285,6 +285,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    color: #1786C7;
 }
 
 header .intro-text .intro-heading {
