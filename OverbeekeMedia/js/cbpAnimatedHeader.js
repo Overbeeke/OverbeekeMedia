@@ -34,12 +34,12 @@ var cbpAnimatedHeader = (function() {
 
 		    classie.add(header, 'navbar-shrink');
 		    logo.attr('src', 'img/logo2webw.png');
-		    logo.fadeIn(1500);
+		    logo.fadeIn(1000);
 
         }
 	    else if (sy < changeHeaderOn)  {
-		    classie.remove(header, 'navbar-shrink');
-		    logo.attr('src', 'img/logo2web.png')
+	        classie.remove(header, 'navbar-shrink');
+		    logo.attr('src', 'img/logo2web.png');
 		}
 
 		didScroll = false;
