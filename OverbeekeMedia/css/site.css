@@ -1,4 +1,13 @@
-﻿.navbar-default.navbar-shrink {
+﻿.fa.fa-15x {
+  font-size: 15em;
+}
+
+.navbar-right {
+    margin-right: 0px;
+}
+
+
+.navbar-default.navbar-shrink {
     padding: 10px 0;
     background-color: #222;
 }
@@ -13,6 +22,48 @@
 .position-relative {
     position: relative;
 }
+
+.youtube-thumbnail {
+    cursor:pointer;    
+}
+
+.feather {
+    height: 150px;
+    background-image: url(../img/blur.png);
+    background-repeat: repeat-x;
+    bottom: 0px;
+}
+
+.blocklet {   
+    height: 7em;
+    width: 7em;
+    background-color: white;
+}
+
+.video-section {
+    padding: 0px;    
+}
+
+#intro-video i {
+    position:absolute;
+    z-index: 1000;
+    color: #e52d27;
+    text-shadow: white 0 0 0.9em, white 0 0 0.9em;
+}
+#intro-video .grey-area {
+    background-color: #F2F1F3;
+}
+
+#intro-video .container {
+    /*margin-bottom: -5px;*/
+}
+
+.white-spacing {
+    height: 100px;
+    width: 100%;
+    background: white;
+}
+
 .center {
     position: absolute;
     margin: auto;

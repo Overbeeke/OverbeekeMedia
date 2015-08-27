@@ -227,7 +227,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #FF8B17;
 }
 
 @media(min-width:768px) {
@@ -235,9 +235,9 @@ fieldset[disabled] .btn-xl.active {
         padding: 25px 0;
         border: 0;
         background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
+        -webkit-transition: background-color 0.5s ease, padding .3s ease;
+        -moz-transition: background-color 0.5s ease, padding .3s ease;
+        transition: background-color 0.5s ease, padding .3s ease;
     }
 
     .navbar-default .navbar-brand {
@@ -285,7 +285,8 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
-    color: white;
+    color: #1786C6;
+    text-shadow: white 0 0 0.9em, white 0 0 0.9em;
 }
 
 header .intro-text .intro-heading {
@@ -319,7 +320,7 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
-        padding-bottom: 200px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .intro-lead-in {
@@ -403,7 +404,7 @@ section#portfolio .section-heading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.9);
+    background: rgba(255,139,23,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -773,11 +774,11 @@ footer ul.quicklinks {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
-
-    footer ul.quicklinks li {
+@media(min-width:1200px) {
+    footer ul.quicklinks li:not(:first-child) {
         padding-left: 60px;
     }
-
+}
 ul.social-buttons {
     margin-bottom: 0;
 }
