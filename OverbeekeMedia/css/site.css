@@ -10,15 +10,29 @@
     margin-top: -12px;
 }
 
+
+
+
+
 /*Extra small devices (768px and less)*/
 .youtube-embedded {
-    width: 560px;
-    height: 315px;
+    width: 480px;
+    height: 270px;
+}
+
+iframe {
+    width: 480px;
+    height: 270px;
+    margin-bottom: 30px;
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     .youtube-embedded {
+        width: 768px;
+        height: 432px;
+    }
+    iframe {
         width: 768px;
         height: 432px;
     }
@@ -30,11 +44,19 @@
         width: 992px;
         height: 558px;
     }
+        iframe {
+        width: 992px;
+        height: 558px;
+    }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .youtube-embedded {
+        width: 1200px;
+        height: 675px;
+    } 
+        iframe {
         width: 1200px;
         height: 675px;
     } 
