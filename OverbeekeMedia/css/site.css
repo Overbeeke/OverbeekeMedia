@@ -2,6 +2,8 @@
   font-size: 15em;
 }
 
+
+
 .navbar-right {
     margin-right: 0px;
 }
@@ -129,4 +131,8 @@ iframe {
   height: 100px;
 }
 
+
+.fa-circle {
+    color:#1786C6;
+}
 

@@ -118,12 +118,12 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 10px 20px;
+    padding: 22px 30px;
     border-color: #FF8B17;
-    border-radius: 3px;
+    border-radius: 8px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
     color: #fff;
     background-color: #FF8B17;
@@ -266,7 +266,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/lelybgX.jpg);
-    background-position: center bottom;
+    background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -286,12 +286,17 @@ header .intro-text .intro-lead-in {
     font-style: italic;
     line-height: 22px;
     color: #1786C6;
-    text-shadow: white 0 0 0.9em, white 0 0 0.9em;
+    text-shadow: white 0 0 0.9em, white 0 0 0.9em, white 0 0 0.9em;
 }
 
 header .intro-text .intro-heading {
-    color: #373737;
-    /*text-shadow: white 0 0 0.9em, white 0 0 0.9em;*/
+    color: #fff;
+    /*text-shadow: black 0 0 0.9em, white 0 0 0.9em;*/
+      text-shadow:
+   0 0 0.1em #000;  
+    /*1px -1px 0.1em #000,
+    -1px 1px 0.1em #000,
+     1px 1px 0.1em #000;*/
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -319,12 +324,12 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 50px;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 30px;
+        margin-bottom: 150px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
@@ -332,10 +337,10 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 30px;
+        margin-bottom: 80px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 65px;
         font-weight: 700;
         line-height: 75px;
     }
@@ -348,6 +353,10 @@ header .intro-text .intro-heading {
     font-size: 20px;
     font-weight: 700;
 }
+
+    #smlr {
+        font-size: 40px;
+    }
 
 
 }
